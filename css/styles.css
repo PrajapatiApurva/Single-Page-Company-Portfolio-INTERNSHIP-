@@ -239,19 +239,21 @@ header {
 
 .team-member {
   flex: 1;
-  min-width: 250px;
+  min-width: 350px;
+  min-height: 400px;
   text-align: center;
   background: #fff;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .team-member img {
-  width: 200px;
+  padding: 20px;
+  width: 250px;
   height: 250px;
   border-radius: 25px;
   margin-bottom: 1rem;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0));
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
